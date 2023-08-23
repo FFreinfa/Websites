@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fractals</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+  <!-- font awesome cdn link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- custom css file cdn link -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- web icon -->
+  <link rel="icon" type="image/x-icon" href="Images/Fractals 1.jpg">
+
+</head>
+<body>
+  <!-- header section starts  -->
+  <header class="header">
+
+    <a href="#" class="logo"><img src="images/Fractals 1.jpg"></a>
+
+    <form action="" class="search-form">
+      <input type="search" name="" id="searchBox" placeholder="Cari...">
+      <label for="searchBox" class="fas fa-search"></label>
+    </form>
+
+    <div class="icons">
+      <div class="fas fa-search" id="search-btn"></div>
+      <div class="fas fa-moon" id="theme-btn"></div>
+      <div class="fas fa-user" id="login-btn"></div>
+      <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <nav class="navbar">
+      <a href="#home">Beranda</a>
+      <a href="#packages">Paket Belajar</a>
+      <a href="#services">Metode Belajar</a>
+      <a href="#review">Ulasan</a>
+      <a href="#contact">Kontak</a>
+      <a href="#blogs">Tentang Kami</a>
+    </nav>
+
+    <form action="" class="login-form">
+
+      <div class="inputBox">
+        <span>username</span>
+        <input type="text" name="" id="" placeholder="Masukkan username anda">
+      </div>
+
+      <div class="inputBox">
+        <span>password</span>
+        <input type="password" name="" id="" placeholder="Masukkan password anda">
+      </div>
+
+      <div class="remember">
+        <input type="checkbox" name="" id="login-remember">
+        <label for="login-remember">Ingat Saya</label>
+      </div>
+
+      <input type="submit" value="login" class="btn">
+
+    </form>
+
+  </header>
+  <!-- header section ends  -->
+
+  <!-- home section starts  -->
+  <section class="home" id="home">
+
+    <div class="image" data-aos="fade-down">
+      <img src="images/Learning.png" alt="">
+    </div>
+
+    <div class="content" data-aos="fade-up">
+      <h3>Let's be better than ever</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis explicabo eius inventore reprehenderit alias eos facilis, ipsa est asperiores repellendus!</p>
+      <a href="#" class="btn">Jelajahi</a>
+    </div>
+
+  </section>
+  <!-- home section ends  -->
+
+  <!-- packages section starts  -->
+  <section class="packages" id="packages">
+
+    <h1 class="heading"><span> Paket Belajar </span></h1>
+
+    <div class="box-container">
+
+      <div class="box" data-aos="fade-up">
+        <div class="image">
+          <img src="images/E 1.jpg" alt="">
+          <h3><i class="fas fa-map-marker-alt"></i> English for Children </h3>
+        </div>
+        <div class="content">
+          <div class="price">1.200.000</div>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+          <a href="#" class="btn"> Daftar </a>
+        </div>
+      </div>
+
+      <div class="box" data-aos="fade-up">
+        <div class="image">
+          <img src="images/E 2.jpg" alt="">
+          <h3><i class="fas fa-map-marker-alt"></i> English for Teens </h3>
+        </div>
+        <div class="content">
+          <div class="price">1.750.000</div>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+          <a href="#" class="btn"> Daftar </a>
+        </div>
+      </div>
+
+      <div class="box" data-aos="fade-up">
+        <div class="image">
+          <img src="images/E 3.jpg" alt="">
+          <h3><i class="fas fa-map-marker-alt"></i> Intermediate </h3>
+        </div>
+        <div class="content">
+          <div class="price">1.900.000</div>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+          <a href="#" class="btn"> Daftar </a>
+        </div>
+      </div>
+
+      <div class="box" data-aos="fade-up">
+        <div class="image">
+          <img src="images/E 4.jpg" alt="">
+          <h3><i class="fas fa-map-marker-alt"></i> English for Adult (EA) </h3>
+        </div>
+        <div class="content">
+          <div class="price">2.500.000</div>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+          <a href="#" class="btn"> Daftar </a>
+        </div>
+      </div>
+
+      <div class="box" data-aos="fade-up">
+        <div class="image">
+          <img src="images/E 5.jpg" alt="">
+          <h3><i class="fas fa-map-marker-alt"></i> English for Business </h3>
+        </div>
+        <div class="content">
+          <div class="price">2.000.000</div>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+          <a href="#" class="btn"> Daftar </a>
+        </div>
+      </div>
+
+      <div class="box" data-aos="fade-up">
+        <div class="image">
+          <img src="images/E 6.jpg" alt="">
+          <h3><i class="fas fa-map-marker-alt"></i> English for Engineering </h3>
+        </div>
+        <div class="content">
+          <div class="price">2.000.000</div>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+          <a href="#" class="btn"> Daftar </a>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+  <!-- packages section ends  -->
+
+  <!-- services section starts  -->
+  <section class="services" id="services">
+
+    <h1 class="heading"><span>Metode Belajar</span></h1>
+
+    <div class="box-container">
+
+      <div class="box" data-aos="zoo-in">
+        <span>01</span>
+        <i class="fa fa-users"></i>
+        <h3>Group Work</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+      </div>
+
+      <div class="box" data-aos="zoo-in">
+        <span>02</span>
+        <i class="fa fa-gamepad"></i>
+        <h3>Fun Games</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+      </div>
+
+      <div class="box" data-aos="zoo-in">
+        <span>03</span>
+        <i class="fa fa-book"></i>
+        <h3>Mid Examination</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+      </div>
+
+      <div class="box" data-aos="zoo-in">
+        <span>04</span>
+        <i class="fa fa-film"></i>
+        <h3>Watching Movies</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+      </div>
+
+      <div class="box" data-aos="zoo-in">
+        <span>05</span>
+        <i class="fa fa-book"></i>
+        <h3>Case Study</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+      </div>
+
+      <div class="box" data-aos="zoo-in">
+        <span>06</span>
+        <i class="fa fa-book"></i>
+        <h3>Final Project</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+      </div>
+
+    </div>
+
+  </section>
+  <!-- services section ends  -->
+
+  <!-- Facilities section starts  -->
+  <section class="services" id="services">
+
+    <h1 class="heading"><span>Fasilitas Belajar</span></h1>
+
+    <div class="box-container">
+
+      <div class="box" data-aos="zoo-in">
+        <span>01</span>
+        <i class="fa fa-snowflake"></i>
+        <h3>Ruang Full AC</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+      </div>
+
+      <div class="box" data-aos="zoo-in">
+        <span>02</span>
+        <i class="fa fa-user"></i>
+        <h3>Guru Professional</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+      </div>
+
+      <div class="box" data-aos="zoo-in">
+        <span>03</span>
+        <i class="fa fa-desktop"></i>
+        <h3>Laboratorium Komputer</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+      </div>
+
+      <div class="box" data-aos="zoo-in">
+        <span>04</span>
+        <i class="fa fa-book"></i>
+        <h3>Perpustakaan</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+      </div>
+
+      <div class="box" data-aos="zoo-in">
+        <span>05</span>
+        <i class="fa fa-bar-chart"></i>
+        <h3>Laboratorium Sains</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+      </div>
+
+      <div class="box" data-aos="zoo-in">
+        <span>01</span>
+        <i class="fa fa-id-card"></i>
+        <h3>Sertifikat</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+      </div>
+
+    </div>
+
+  </section>
+  <!-- services section ends  -->
+
+  <!-- review section starts  -->
+  <section class="review" id="review">
+
+    <h1 class="heading"><span>Ulasan</span></h1>
+
+    <div class="swiper-container review-slider" data-aos="zoom-in">
+
+      <div class="swiper-wrapper">
+  
+        <div class="swiper-slide slide">
+          <img src="images/Person.jpg" alt="">
+          <h3>Arifin</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur sunt eligendi est, dicta maiores amet nihil perferendis, incidunt maxime aspernatur exercitationem laboriosam odio dolores magnam ratione atque, quasi odit. Hic!</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+  
+        <div class="swiper-slide slide">
+          <img src="images/Person.jpg" alt="">
+          <h3>Yosep Sitepu</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur sunt eligendi est, dicta maiores amet nihil perferendis, incidunt maxime aspernatur exercitationem laboriosam odio dolores magnam ratione atque, quasi odit. Hic!</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+  
+        <div class="swiper-slide slide">
+          <img src="images/Person.jpg" alt="">
+          <h3>Ilham Putra</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur sunt eligendi est, dicta maiores amet nihil perferendis, incidunt maxime aspernatur exercitationem laboriosam odio dolores magnam ratione atque, quasi odit. Hic!</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+  
+        <div class="swiper-slide slide">
+          <img src="images/Person.jpg" alt="">
+          <h3>Muhammad Ihsan</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur sunt eligendi est, dicta maiores amet nihil perferendis, incidunt maxime aspernatur exercitationem laboriosam odio dolores magnam ratione atque, quasi odit. Hic!</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+  
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+    </div>
+
+  </section>
+  <!-- review section ends  -->
+
+  <!-- contact section starts  -->
+  <section class="contact" id="contact">
+
+    <h1 class="heading"><span>Kontak</span></h1>
+
+    <form action="" data-aos="zoom">
+
+      <div class="inputBox">
+        <input type="text" name="" id="" placeholder="nama" data-aos="fade-up">
+        <input type="email" name="" id="" placeholder="email" data-aos="fade-up">
+      </div>
+
+      <div class="inputBox">
+        <input type="number" name="" id="" placeholder="nomor" data-aos="fade-up">
+        <input type="text" name="" id="" placeholder="subject" data-aos="fade-up">
+      </div>
+
+      <textarea name="" placeholder="pesan..." id="" cols="30" rows="10" data-aos="fade-up"></textarea>
+
+      <input type="submit" value="send message" class="btn">
+
+    </form>
+
+  </section>
+  <!-- contact section ends  -->
+
+  <!-- blog section starts  -->
+  <section class="blogs" id="blogs">
+
+    <h1 class="heading"> <span>Berita</span> </h1>
+
+    <div class="box-container">
+
+      <div class="box" data-aos="fade-up">
+        <div class="image">
+          <img src="images/pexels-rdne-stock-project-7648476.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>Fractals Mengadakan Mini Project Untuk Membantu UMKM</h3>
+          <a href="#" class="btn">Selengkapnya</a>
+          <div class="icons">
+              <a href="#"> <i class="fas fa-calendar"></i> Juli 20 2023 </a>
+              <a href="#"> <i class="fas fa-user"></i> Oleh Admin </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="box" data-aos="fade-up">
+        <div class="image">
+          <img src="images/Fractals 1.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>Fractals Resmi Terakreditasi A</h3>
+          <a href="#" class="btn">Selengkapnya</a>
+          <div class="icons">
+              <a href="#"> <i class="fas fa-calendar"></i> Januari 03 2023 </a>
+              <a href="#"> <i class="fas fa-user"></i> Oleh Admin </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="box" data-aos="fade-up">
+        <div class="image">
+          <img src="images/pexels-thisisengineering-3861458.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>Kunjungan Tamu dari Perancis, Turki, Inggris, dan Amerika</h3>
+          <a href="#" class="btn">Selengkapnya</a>
+          <div class="icons">
+              <a href="#"> <i class="fas fa-calendar"></i> 13 Mei 2023 </a>
+              <a href="#"> <i class="fas fa-user"></i> Oleh Admin </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+  <!-- blog section ends  -->
+
+  <!-- footer section starts  -->
+  <section class="footer">
+
+    <div class="box-container">
+
+      <div class="box" data-aos="fade-up">
+        <h3>Cabang Kami</h3>
+        <a href="#"> <i class="fas fa-map-marker-alt"></i> Jakarta </a>
+        <a href="#"> <i class="fas fa-map-marker-alt"></i> Surabaya </a>
+        <a href="#"> <i class="fas fa-map-marker-alt"></i> Yogyakarta </a>
+        <a href="#"> <i class="fas fa-map-marker-alt"></i> Bekasi </a>
+        <a href="#"> <i class="fas fa-map-marker-alt"></i> Serpong </a>
+      </div>
+
+      <div class="box" data-aos="fade-up">
+        <h3>quick links</h3>
+        <a href="#"> <i class="fas fa-chevron-right"></i> Beranda </a>
+        <a href="#"> <i class="fas fa-chevron-right"></i> Paket </a>
+        <a href="#"> <i class="fas fa-chevron-right"></i> Metode </a>
+        <a href="#"> <i class="fas fa-chevron-right"></i> Ulasan </a>
+        <a href="#"> <i class="fas fa-chevron-right"></i> Fasilitas </a>
+        <a href="#"> <i class="fas fa-chevron-right"></i> Kontak </a>
+        <a href="#"> <i class="fas fa-chevron-right"></i> Blogs </a>
+      </div>
+
+      <div class="box" data-aos="fade-up">
+          <h3>Kontak</h3>
+          <a href="#"> <i class="fas fa-phone"></i> +62-8123-4567-890 </a>
+          <a href="#"> <i class="fas fa-phone"></i> 021-345-678 </a>
+          <a href="#"> <i class="fas fa-envelope"></i> kontak@fractals.ac.id </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> Jl. Semangga No 8, Kav. 25, Lantai 300, Batavia, Hindia Belanda </a>
+      </div>
+
+      <div class="box" data-aos="fade-up">
+          <h3>Ikuti Kami</h3>
+          <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+          <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+          <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+          <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+          <a href="#"> <i class="fab fa-youtube"></i> youtube </a>
+      </div>
+    </div>
+
+    <div class="credit"> Copyright 2023 <span>Fractal Course</span> | all rights reserved </div>
+
+  </section>
+  <!-- footer section ends  -->
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+  <!-- custom js file link -->
+  <script src="js/script.js"></script>
+
+  <script>
+    AOS.init({
+        duration:800,
+        delay:100
+    });
+  </script>
+</body>
+</html>
